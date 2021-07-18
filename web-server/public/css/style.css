@@ -54,6 +54,28 @@ img {
 	width: 250px;
 }
 
+form {
+	padding: 2em 2em;
+}
+
+form input {
+	height: 2rem;
+	width: 40%;
+	padding-left: 1em;
+	margin-right: 0.5em;
+	border: 1px solid #cccccc;
+}
+
+.btn {
+	padding: 5px;
+	width: 80px;
+	height: 30px;
+	border: 1px solid #888888;
+	color: aliceblue;
+	cursor: pointer;
+	background-color: #888888;
+}
+
 .footer {
 	margin: 2em 0;
 	text-align: center;
