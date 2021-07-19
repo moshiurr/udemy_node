@@ -1,2 +1,2 @@
-./web-server/node-modules
-./weather-app/node-modules
+*/node-modules
+*.env
