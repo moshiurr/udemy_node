@@ -97,7 +97,7 @@ app.get("/help/*", (req, res) => {
 	res.render("error", {
 		title: "404",
 		error_message: "Help article not found",
-		footerName: "Alif",
+		footerName: "Moshiur Rahman",
 	});
 });
 
@@ -106,7 +106,7 @@ app.get("*", (req, res) => {
 	res.render("error", {
 		title: "404",
 		error_message: "Page not found",
-		footerName: "Alif",
+		footerName: "Moshiur Rahman",
 	});
 });
 
