@@ -8,6 +8,8 @@ const hbs = require("hbs");
 
 require("dotenv").config();
 
+const port = process.env.PORT || 3000;
+
 //requiring the function for collecting the weather data
 const geocode = require("./utils/geocode");
 const forecast = require("./utils/forecast");
@@ -110,6 +112,6 @@ app.get("*", (req, res) => {
 	});
 });
 
-app.listen(3000, () => {
-	console.log("Server is up and running on port 3000.");
+app.listen(port, () => {
+	console.log("Server is up and running on port " + port);
 });
